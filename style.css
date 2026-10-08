@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbf9f9;
+}
+
+h1 {
+  color: #ea0b68;
+}
+
+
+p  { color: green; 
+
+}
+.note note  { color: orange;
+ 
+}
+#intro { color: purple; 
+
+}
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 20px solid #000;
+  margin: 10px;
+}
+article p   { font-style: italic; }  /* Both paragraphs → italic */
+article > p { color: green; }        /* Only the FIRST paragraph → green */
+
+input[type="text password"] {
+  border: 1px solid red;
+}
